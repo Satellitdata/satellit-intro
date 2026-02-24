@@ -1,0 +1,349 @@
+{
+  "datasets": [
+    {
+      "id": "sentinel-1",
+      "name": "Sentinel-1",
+      "provider": "ESA / Copernicus",
+      "type": "SAR (Synthetic Aperture Radar)",
+      "spatialResolution": "5–20 m",
+      "temporalResolution": "6 dagar",
+      "availability": "free",
+      "license": "Fri och öppen (Copernicus Open Access)",
+      "accessUrl": "https://dataspace.copernicus.eu/",
+      "description": "Sentinel-1 är en radarsatellit (SAR) som kan observera jordytan oavsett molntäcke och ljusförhållanden. Den levererar data dygnet runt, året runt, och är särskilt användbar för att detektera förändringar i markförhållanden, översvämningar och markrörelser.",
+      "tags": ["SAR", "radar", "fri", "copernicus"],
+      "useCases": [
+        {
+          "title": "Översvämningskartläggning i realtid",
+          "category": "Krisberedskap",
+          "description": "Vid översvämningar kan kommunen använda Sentinel-1 för att kartlägga drabbade områden, även under molniga förhållanden. Radardatan visar tydligt var vatten har breddat sig utanför normala gränser."
+        },
+        {
+          "title": "Övervakning av markrörelser",
+          "category": "Infrastruktur",
+          "description": "Genom InSAR-teknik (interferometrisk SAR) kan kommunen upptäcka millimetersmå markrörelser nära vägar, järnvägar och byggnader – ett tidigt varningssystem för sättningar och skred."
+        },
+        {
+          "title": "Sjöis och kustövervakning",
+          "category": "Miljö & klimat",
+          "description": "Kommuner vid kusten kan använda Sentinel-1 för att övervaka isförhållanden, kusterosion och förändringar i strandlinjen över tid."
+        }
+      ]
+    },
+    {
+      "id": "sentinel-2",
+      "name": "Sentinel-2",
+      "provider": "ESA / Copernicus",
+      "type": "Optisk multispektral",
+      "spatialResolution": "10 m",
+      "temporalResolution": "5 dagar",
+      "availability": "free",
+      "license": "Fri och öppen (Copernicus Open Access)",
+      "accessUrl": "https://dataspace.copernicus.eu/",
+      "description": "Sentinel-2 levererar högupplösta optiska bilder i 13 spektralband. Den är en av de mest använda fria satelliterna och möjliggör detaljerad analys av vegetation, vatten, bebyggelse och markanvändning.",
+      "tags": ["optisk", "multispektral", "fri", "copernicus"],
+      "useCases": [
+        {
+          "title": "Uppföljning av grönområden och parker",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Kommunen kan använda vegetationsindex (NDVI) från Sentinel-2 för att systematiskt följa hur grönområden utvecklas över tid, identifiera områden med minskande vegetation och planera nya grönytor."
+        },
+        {
+          "title": "Vattenkvalitet i sjöar och vattendrag",
+          "category": "Vattenresurser",
+          "description": "Genom att analysera spektraldata kan kommunen övervaka klorofyllhalter och upptäcka algblomning i sjöar och kustvatten, vilket ger tidig varning för badförbud och vattenproblem."
+        },
+        {
+          "title": "Kartläggning av hårdgjorda ytor",
+          "category": "Miljö & klimat",
+          "description": "Sentinel-2 kan användas för att mäta hur stor andel av kommunens yta som är hårdgjord (asfalt, betong) kontra grönyta – viktigt underlag för dagvattenplanering och klimatanpassning."
+        }
+      ]
+    },
+    {
+      "id": "sentinel-3",
+      "name": "Sentinel-3",
+      "provider": "ESA / Copernicus",
+      "type": "Optisk / Termisk / Altimetri",
+      "spatialResolution": "300 m – 1 km",
+      "temporalResolution": "1–2 dagar",
+      "availability": "free",
+      "license": "Fri och öppen (Copernicus Open Access)",
+      "accessUrl": "https://dataspace.copernicus.eu/",
+      "description": "Sentinel-3 är en mångsidig satellit designad för att övervaka hav, kuster och stora landområden. Den mäter yttemperatur (både hav och land), havsytans höjd och vegetationsstatus på storskalig nivå.",
+      "tags": ["optisk", "termisk", "hav", "fri", "copernicus"],
+      "useCases": [
+        {
+          "title": "Kartläggning av urbana värmeöar",
+          "category": "Miljö & klimat",
+          "description": "Med temperaturdata från Sentinel-3 kan kommunen identifiera områden i staden som blir extra varma under sommaren (urbana värmeöar) och prioritera insatser som trädplantering och gröna tak."
+        },
+        {
+          "title": "Övervakning av kustvatten",
+          "category": "Vattenresurser",
+          "description": "Kustkommuner kan använda Sentinel-3 för att följa vattenkvalitet, yttemperatur och algblomning längs kusten på storskalig nivå."
+        }
+      ]
+    },
+    {
+      "id": "sentinel-5p",
+      "name": "Sentinel-5P",
+      "provider": "ESA / Copernicus",
+      "type": "Atmosfärsdata",
+      "spatialResolution": "3.5 × 7 km",
+      "temporalResolution": "1 dag",
+      "availability": "free",
+      "license": "Fri och öppen (Copernicus Open Access)",
+      "accessUrl": "https://dataspace.copernicus.eu/",
+      "description": "Sentinel-5P (Precursor) är dedikerad till att mäta atmosfärens sammansättning. Den övervakar luftföroreningar som kvävedioxid (NO₂), svaveldioxid (SO₂), ozon, metan och kolmonoxid med daglig global täckning.",
+      "tags": ["atmosfär", "luftkvalitet", "fri", "copernicus"],
+      "useCases": [
+        {
+          "title": "Övervakning av lokal luftkvalitet",
+          "category": "Miljö & klimat",
+          "description": "Kommunen kan följa kvävedioxidnivåer (NO₂) från trafik och industri över tid, identifiera problemområden och utvärdera effekten av åtgärder som miljözoner eller trafikomläggningar."
+        },
+        {
+          "title": "Metanutsläpp och klimatuppföljning",
+          "category": "Miljö & klimat",
+          "description": "Med metandata från Sentinel-5P kan kommuner som har deponier, reningsverk eller jordbruk i närheten övervaka metanutsläpp och följa upp klimatmål."
+        },
+        {
+          "title": "Utvärdering av miljöpolitiska åtgärder",
+          "category": "Miljö & klimat",
+          "description": "Genom att jämföra luftkvalitetsdata före och efter införande av exempelvis bilfria zoner kan kommunen objektivt mäta effekten av sina insatser."
+        }
+      ]
+    },
+    {
+      "id": "landsat",
+      "name": "Landsat (8 & 9)",
+      "provider": "NASA / USGS",
+      "type": "Optisk multispektral",
+      "spatialResolution": "15–30 m",
+      "temporalResolution": "8 dagar (kombinerat)",
+      "availability": "free",
+      "license": "Fri och öppen (USGS Public Domain)",
+      "accessUrl": "https://earthexplorer.usgs.gov/",
+      "description": "Landsat-programmet har den längsta kontinuerliga serien av satellitbilder av jordens yta, med data från 1972 och framåt. Landsat 8 och 9 levererar högkvalitativa optiska bilder som är ovärderliga för att studera förändringar över tid.",
+      "tags": ["optisk", "multispektral", "fri", "historisk"],
+      "useCases": [
+        {
+          "title": "Långtidsanalys av markanvändning",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Med över 50 års data kan kommunen studera hur bebyggelse, jordbruk och naturområden har förändrats sedan 1970-talet – ett unikt historiskt perspektiv för planering."
+        },
+        {
+          "title": "Uppföljning av skogsavverkning",
+          "category": "Skog & jordbruk",
+          "description": "Kommuner med skogsmark kan använda Landsat för att följa avverkningsmönster, återbeskogning och skogshälsa över årtionden."
+        },
+        {
+          "title": "Stadsutbredning över tid",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Genom att jämföra Landsat-bilder från olika årtionden kan kommunen visualisera och analysera stadsutvecklingens expansion och dess påverkan på omgivande natur."
+        }
+      ]
+    },
+    {
+      "id": "modis-viirs",
+      "name": "MODIS / VIIRS",
+      "provider": "NASA",
+      "type": "Optisk storskalig",
+      "spatialResolution": "250 m – 1 km",
+      "temporalResolution": "1–2 dagar",
+      "availability": "free",
+      "license": "Fri och öppen (NASA Public Domain)",
+      "accessUrl": "https://ladsweb.modaps.eosdis.nasa.gov/",
+      "description": "MODIS (Moderate Resolution Imaging Spectroradiometer) och dess efterföljare VIIRS levererar dagliga globala observationer med måttlig upplösning. De är idealiska för att studera storskaliga fenomen som bränder, snötäcke och vegetationsförändringar.",
+      "tags": ["optisk", "storskalig", "fri", "bränder"],
+      "useCases": [
+        {
+          "title": "Brandövervakning och tidig varning",
+          "category": "Krisberedskap",
+          "description": "MODIS/VIIRS detekterar aktiva bränder i nära realtid. Kommuner kan använda detta för tidig varning vid skogsbränder och för att koordinera räddningsinsatser."
+        },
+        {
+          "title": "Snötäcke och vårflod",
+          "category": "Vattenresurser",
+          "description": "Kommuner i norra Sverige kan använda dagliga snötäckekartor för att uppskatta snösmältning och förbereda sig för vårflodssäsongen."
+        }
+      ]
+    },
+    {
+      "id": "copernicus-dem",
+      "name": "Copernicus DEM",
+      "provider": "ESA / Copernicus",
+      "type": "Höjdmodell (DEM)",
+      "spatialResolution": "30 m (GLO-30) / 90 m (GLO-90)",
+      "temporalResolution": "Statisk produkt (uppdateras periodvis)",
+      "availability": "free",
+      "license": "Fri och öppen (Copernicus Licence)",
+      "accessUrl": "https://spacedata.copernicus.eu/",
+      "description": "Copernicus DEM är en global digital höjdmodell baserad på TanDEM-X-missionen. Den ger exakt information om terrängens höjd och lutning, vilket är grundläggande för många GIS-analyser.",
+      "tags": ["höjddata", "DEM", "fri", "copernicus"],
+      "useCases": [
+        {
+          "title": "Översvämningsmodellering",
+          "category": "Krisberedskap",
+          "description": "Med en detaljerad höjdmodell kan kommunen modellera vilka områden som riskerar att översvämmas vid olika vattennivåer – kritiskt underlag för beredskapsplanering."
+        },
+        {
+          "title": "Dagvattenplanering",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Höjddata visar hur vatten naturligt rinner i terrängen, vilket hjälper kommunen att planera dagvattensystem och identifiera lågpunkter där vatten kan ansamlas."
+        },
+        {
+          "title": "Solpotentialanalys",
+          "category": "Infrastruktur",
+          "description": "I kombination med byggnadsinformation kan höjddata användas för att beräkna solpotential på tak – hur mycket solenergi varje tak kan fånga baserat på lutning och skuggning."
+        }
+      ]
+    },
+    {
+      "id": "planet",
+      "name": "Planet (PlanetScope / SkySat)",
+      "provider": "Planet Labs",
+      "type": "Optisk högupplöst",
+      "spatialResolution": "3–5 m (PlanetScope) / 0.5 m (SkySat)",
+      "temporalResolution": "Daglig (PlanetScope)",
+      "availability": "commercial",
+      "license": "Kommersiell licens (fri akademisk via NICFI/Education)",
+      "accessUrl": "https://www.planet.com/",
+      "description": "Planet driver världens största konstellation av jordobservationssatelliter med över 200 satelliter som fotograferar hela jorden dagligen. PlanetScope levererar 3–5 m upplösning, medan SkySat erbjuder 0.5 m – tillräckligt för att urskilja enskilda träd och bilar.",
+      "tags": ["optisk", "högupplöst", "kommersiell", "daglig"],
+      "useCases": [
+        {
+          "title": "Daglig bygglovsuppföljning",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Med dagliga bilder kan kommunen automatiskt upptäcka ny byggnation och jämföra med beviljade bygglov – ett effektivt verktyg för tillsyn."
+        },
+        {
+          "title": "Detaljerad grödövervakning",
+          "category": "Skog & jordbruk",
+          "description": "Jordbrukskommuner kan följa enskilda fälts utveckling dag för dag, upptäcka stressmönster tidigt och stötta lantbrukare med beslutsunderlag."
+        },
+        {
+          "title": "Parkskötsel och trädbestånd",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Med SkySat-bilder (0.5 m) kan kommunen inventera enskilda träd i parker, följa deras hälsa och planera skötsel."
+        }
+      ]
+    },
+    {
+      "id": "maxar",
+      "name": "Maxar (WorldView)",
+      "provider": "Maxar Technologies",
+      "type": "Optisk mycket högupplöst",
+      "spatialResolution": "0.3–0.5 m",
+      "temporalResolution": "Beställning / arkiv",
+      "availability": "commercial",
+      "license": "Kommersiell licens (priser efter förfrågan)",
+      "accessUrl": "https://www.maxar.com/",
+      "description": "Maxar (tidigare DigitalGlobe) driver WorldView-konstellationen som levererar bland de skarpaste kommersiella satellitbilderna med upp till 30 cm upplösning. Datan används för detaljerad kartläggning där extremt hög upplösning krävs.",
+      "tags": ["optisk", "mycket högupplöst", "kommersiell"],
+      "useCases": [
+        {
+          "title": "Detaljerad stadskartläggning",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Med 30 cm upplösning kan kommunen skapa extremt detaljerade kartor som visar enskilda byggnader, parkeringsplatser och till och med gatumöbler."
+        },
+        {
+          "title": "Skadebedömning efter naturkatastrof",
+          "category": "Krisberedskap",
+          "description": "Efter en storm eller översvämning kan Maxar-bilder användas för att bedöma skador på enskilda byggnader och infrastruktur, vilket snabbar upp räddnings- och återuppbyggnadsarbete."
+        }
+      ]
+    },
+    {
+      "id": "iceye",
+      "name": "ICEYE",
+      "provider": "ICEYE",
+      "type": "SAR (högupplöst)",
+      "spatialResolution": "0.25–1 m",
+      "temporalResolution": "Beställning (frekventa återbesök möjliga)",
+      "availability": "commercial",
+      "license": "Kommersiell licens",
+      "accessUrl": "https://www.iceye.com/",
+      "description": "ICEYE är ett finskt företag som driver en konstellation av små SAR-satelliter. De levererar radarbilder med mycket hög upplösning (ner till 25 cm) och kan snabbt taskas för att avbilda specifika områden vid behov – dygnet runt, oavsett väder.",
+      "tags": ["SAR", "radar", "högupplöst", "kommersiell"],
+      "useCases": [
+        {
+          "title": "Översvämningsdetektering dygnet runt",
+          "category": "Krisberedskap",
+          "description": "ICEYE kan leverera detaljerade översvämningskartor även nattetid och genom moln. Kommunen får snabbt en exakt bild av vilka kvarter, vägar och fastigheter som drabbats."
+        },
+        {
+          "title": "Precisionsövervakning av markstabilitet",
+          "category": "Infrastruktur",
+          "description": "Med submeterupplösning kan ICEYE detektera extremt små markrörelser nära kritisk infrastruktur som broar, tunnlar och järnvägar."
+        },
+        {
+          "title": "Försäkringsbedömning vid skador",
+          "category": "Krisberedskap",
+          "description": "I samarbete med försäkringssektorn kan kommunen använda ICEYE-data för snabb och objektiv bedömning av stormskador och översvämningsskador."
+        }
+      ]
+    },
+    {
+      "id": "clms",
+      "name": "Copernicus Land Monitoring Service (CLMS)",
+      "provider": "EEA / Copernicus",
+      "type": "Färdigbearbetade produkter (marktäcke, vegetation, vatten m.m.)",
+      "spatialResolution": "10–100 m (beroende på produkt)",
+      "temporalResolution": "Varierar (dagligt till årligt)",
+      "availability": "free",
+      "license": "Fri och öppen (Copernicus Licence)",
+      "accessUrl": "https://land.copernicus.eu/",
+      "description": "CLMS levererar färdigbearbetade produkter baserade på satellitdata – redo att användas utan teknisk förkunskap. Tjänsten inkluderar marktäckekartor (CORINE, Urban Atlas), vegetationsindex, vattenstatus och mer.",
+      "tags": ["marktäcke", "vegetation", "färdigbearbetad", "fri", "copernicus"],
+      "useCases": [
+        {
+          "title": "Markanvändningsklassificering",
+          "category": "Stadsplanering & samhällsbyggnad",
+          "description": "Urban Atlas ger detaljerade markanvändningskartor för europeiska städer. Kommunen kan direkt använda dessa utan egen bearbetning för att se fördelning mellan bostäder, industri, grönyta etc."
+        },
+        {
+          "title": "Impermeabel yta och dagvattenstrategi",
+          "category": "Miljö & klimat",
+          "description": "CLMS High Resolution Layers visar exakt hur stor andel av kommunens yta som är ogenomtränglig (asfalt, betong) – kritisk data för klimatanpassning och dagvattenhantering."
+        },
+        {
+          "title": "Vegetationsövervakning",
+          "category": "Skog & jordbruk",
+          "description": "Färdiga vegetationsindex och fenologiprodukter visar hur vegetationssäsongen utvecklas, utan att kommunen själv behöver bearbeta rådata."
+        }
+      ]
+    },
+    {
+      "id": "era5",
+      "name": "ERA5 (ECMWF)",
+      "provider": "ECMWF / Copernicus Climate Change Service",
+      "type": "Reanalysdata (väder/klimat)",
+      "spatialResolution": "~31 km",
+      "temporalResolution": "Timvis (från 1940 till nära realtid)",
+      "availability": "free",
+      "license": "Fri och öppen (Copernicus Licence)",
+      "accessUrl": "https://cds.climate.copernicus.eu/",
+      "description": "ERA5 är en klimatreanalys som kombinerar observationer med modelldata för att ge en komplett och konsistent bild av jordens väder och klimat timme för timme, från 1940 till idag. Den inkluderar temperatur, nederbörd, vind, luftfuktighet och mycket mer.",
+      "tags": ["klimat", "väder", "reanalys", "fri", "historisk"],
+      "useCases": [
+        {
+          "title": "Klimatanpassningsplanering",
+          "category": "Miljö & klimat",
+          "description": "Kommunen kan analysera klimattrender (temperaturökningar, förändrade nederbördsmönster) från 1940 till idag för att planera klimatanpassningsåtgärder med faktabaserat underlag."
+        },
+        {
+          "title": "Vindkraftspotential",
+          "category": "Infrastruktur",
+          "description": "Med detaljerade vinddata kan kommunen bedöma lämpliga platser för vindkraftverk baserat på historiska vindförhållanden."
+        },
+        {
+          "title": "Extremväderanalys",
+          "category": "Krisberedskap",
+          "description": "Genom att analysera historiska extremväder (värmeböljor, skyfall, stormar) kan kommunen bättre dimensionera sin beredskap och identifiera sårbara områden."
+        }
+      ]
+    }
+  ]
+}
